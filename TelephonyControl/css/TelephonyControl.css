@@ -1,0 +1,23 @@
+#input_container {
+    position:relative;
+    padding:0 0 0 20px;
+    margin:0 20px;
+    background:#ddd;
+    direction: rtl;
+    width: 200px;
+}
+#phoneInput {
+    height:20px;
+    margin:0;
+    direction: ltr;
+    padding-right: 30px;
+    width: 100%;
+}
+#input_img {
+    position:absolute;
+    bottom:2px;
+    right:5px;
+    width:24px;
+    height:24px;
+    cursor: pointer;
+}

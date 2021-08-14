@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control namespace="neu" constructor="TelephonyControl" version="0.0.6" display-name-key="Telephony Control" description-key="TelephonyControl description" control-type="standard" preview-image="img/preview.png">
+    <property name="phoneField" display-name-key="Phone Number Field" description-key="bind this property to phone number field " of-type="SingleLine.Phone" usage="bound" required="true" />
+    <resources>
+      <code path="index.ts" order="1" />
+      <css path="css/TelephonyControl.css" order="1" />
+      <resx path="strings/TelephonyControl.1033.resx" version="1.0.0" />
+      <img path="img/Phone_icon.png" />
+    </resources>
+    <feature-usage>
+      <uses-feature name="Utility" required="true" />
+      <uses-feature name="WebAPI" required="true" />
+    </feature-usage>
+  </control>
+</manifest>
